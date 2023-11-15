@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ... autres styles ... */
+
+
+.home-page {
+  display: flex;
+}
+
+
+/* ... autres styles ... */
+
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.content h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #777;
+}
+
+.Pres-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+
+.Pres-item p {
+  color: #777;
+}
+
+/* HomePage.css */
+
+@keyframes spaceExchange {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+.Pres-item {
+  animation: spaceExchange 2s infinite;
+}
+
+/* Formation.css */
+
+.Formation-page {
+  display: flex;
+}
+
+.formation-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.formation-item {
+  animation: spaceExchange 2s infinite;
+}
+
+.formation-item:hover {
+  transform: scale(1.05);
+}
+
+.formation-item h2 {
+  color: #333;
+}
+
+.formation-item p {
+  color: #777;
+}
+
+
+/* ExperiencePage.css */
+
+.Experience-page {
+  display: flex;
+}
+
+.company-logo {
+  width: 120px; /* Ajustez la taille du logo selon vos besoins */
+  height: auto;
+}
+
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  animation: spaceExchange 2s infinite;
+}
+
+.Pres-item {
+  margin-left: 20px;
+}
+
+/* ExperiencePage.css */
+
+.company-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.position {
+  font-size: 1.1em;
+}
+
+.dates {
+  font-size: 1em;
+  color: #777;
+}
+
+.missions {
+  margin-top: 10px;
+}
+
+.missions p {
+  margin-bottom: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+}
+
+.missions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.missions li {
+  font-size: 0.9em;
+  color: #555;
+  margin-left: 20px;
+}
+
+
+/* CompetencePage.css */
+
+.Competence-page {
+  display: flex;
+}
+
+
+.competence-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.competence-column {
+  width: 38%; /* Ajustez la largeur en fonction de votre mise en page */
+}
+
+.competence-item {
+  margin-bottom: 20px;
+}
+
+.bar-container {
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background-color: #4caf50; /* Couleur de la barre de compétence */
+  transition: width 1s; /* Animation de transition pour la largeur de la barre */
+}
+
+.competence-item {
+  animation: spaceExchange 2s infinite;
+}
+
+.competence-details {
+  margin-top: 5px;
+  color: #777; /* Couleur grise pour les détails de compétence */
+  font-size: 14px;
+}
+
+/*Contact*/
+
+.Contact-page {
+  display: flex;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Ajoutez de l'espace entre chaque contact-item */
+}
+
+.contact-icon {
+  width: 100px; /* Ajustez la taille du logo selon vos besoins */
+  height: auto;
+  margin-right: 10px; /* Ajoutez de l'espace entre l'icône et le texte */
+}
+
+.contact-item {
+  animation: spaceExchange 2s infinite;
+}
