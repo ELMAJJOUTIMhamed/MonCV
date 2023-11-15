@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MonCV/static/css/main.f5339fce.css",
+    "main.js": "/MonCV/static/js/main.f94a0eb4.js",
+    "static/js/787.8e8ffda9.chunk.js": "/MonCV/static/js/787.8e8ffda9.chunk.js",
+    "static/media/logo.svg": "/MonCV/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MonCV/index.html",
+    "main.f5339fce.css.map": "/MonCV/static/css/main.f5339fce.css.map",
+    "main.f94a0eb4.js.map": "/MonCV/static/js/main.f94a0eb4.js.map",
+    "787.8e8ffda9.chunk.js.map": "/MonCV/static/js/787.8e8ffda9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5339fce.css",
+    "static/js/main.f94a0eb4.js"
+  ]
+}
